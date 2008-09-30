@@ -1,0 +1,8 @@
+ALUNOS
+- CADASTRO
+- - fazer erro de numero de inscricao repetido V
+- - Fazer impressão de comprovante V
+- LISTAGEM
+- - Revisar paginação v
+- - Mexer no número de itens por página V
+- - Ordenar por?
