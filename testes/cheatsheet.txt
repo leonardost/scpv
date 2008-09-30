@@ -1,0 +1,25 @@
+function form($id, $name, $action, $method)
+
+function label($for, $label, $classe, $style)
+
+function text($id, $name, $value, $maxlenght, $classe, $style)
+
+function password($id, $name, $value, $maxlenght, $classe, $style)
+
+function radio($id, $name, $classe, $value, $checked, $style)
+
+function checkbox($id, $name, $classe, $value, $checked, $style)
+
+function select($id, $name, $classe, $style)
+function option($value, $text)
+function selectend()
+
+function textarea($id, $name, $value, $rows, $cols, $classe, $style)
+
+function hidden($id, $name, $value)
+
+function submit($id, $name, $value, $classe, $style)
+
+function resetar($id, $name, $value, $classe, $style)
+
+function formend()

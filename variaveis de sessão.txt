@@ -1,0 +1,5 @@
+['login'] - texto = nome do usuário que está logado
+
+['logado'] - boolean = se o usuário está logado ou não
+
+['erros'][campo] - boolean = campo está com erro

@@ -1,0 +1,284 @@
+*, html, body, h1, h2, h3, h4, h5, h6, p, form, label, ul, li, img {
+  margin:0; padding:0;
+}
+
+img {
+  border:0;
+}
+
+body {
+  font-size:16px; font-family:arial, verdana;
+}
+
+#wrapper {
+  margin:0 auto;
+  width:780px;
+}
+
+/* --------------------------------------------------------
+   TOPO
+   -------------------------------------------------------- */
+
+#topo {
+  width:780px; height:100px;
+  background-color:#AAA;
+  float:left;
+}
+
+#topo h1 {
+  position:relative;
+  top:15px; left:15px;
+  font-size:26px;
+  color:#FFF;
+}
+
+/* --------------------------------------------------------
+   MENU
+   -------------------------------------------------------- */
+
+#menu {
+  width:780px; height:33px;
+  clear:both; float:left;
+}
+
+#menu div {
+  float:right;
+}
+
+#menu a {
+  /*display:inline;*/
+  padding:0 10px; margin-right:10px; border:1px solid #999;
+  height:31px;
+  font-size:14px; text-align:center; line-height:31px;
+  text-decoration:none;
+  color:#666; background-color:#DDD;
+  float:left;
+}
+#menu a:hover{
+  border:1px solid #000;
+  color:#000; background-color:#F9F9F9;
+}
+
+#menu ul {
+  float:left;
+}
+#menu ul li {
+  position:relative;
+  list-style:none;
+  float:left;
+}
+#menu ul li ul {
+  position:absolute;
+  display:none;
+  left:0; top:33px;
+  background-color:#FFF;
+}
+#menu ul li ul li { 
+  display:block;
+  clear:left; float:left;
+}
+
+#menu ul li ul li a {
+  width:100px;
+  text-align:left;
+  margin:0;
+}
+
+#menu form {
+  position:relative;
+  top:5px;
+  height:28px;
+  float:right;
+  font-size:12px;
+}
+#menu form label {
+  margin-left:10px;
+}
+#menu form input {
+  margin-left:5px;
+  width:100px;
+  font-size:12px;
+}
+#menu form input.botao {
+  width:70px;
+}
+
+#menu p {
+  font-size:12px; line-height:33px;
+  float:left;
+}
+#menu p a {
+  display:inline;
+  padding:0; margin:0; border:0;
+  background:none;
+  float:none;
+}
+#menu p a:hover {
+  border:0;
+  text-decoration:underline;
+}
+
+#menu p.erro {
+  margin-right:10px;
+  font-size:12px; line-height:24px;
+  color:#F00;
+  float;right;
+}
+
+/* --------------------------------------------------------
+   MENU LATERAL
+   -------------------------------------------------------- */
+
+/*
+
+#menu_esq {
+  width:180px;
+  clear:both; float:left;
+  background-color:#538;
+}
+#menu_esq ul {
+
+}
+
+*/
+
+/* --------------------------------------------------------
+   CONTEÚDO
+   -------------------------------------------------------- */
+
+#conteudo {
+  padding:20px;
+  width:740px;
+  float:left;
+  background-color:#EEE;
+}
+
+#conteudo h1 {
+  margin-bottom:30px;
+  font-size:26px;
+}
+#conteudo h2 {
+  margin-bottom:15px;
+  font-size:21px;
+}
+#conteudo h3 {
+  font-size:16px;
+}
+
+#conteudo ul {
+  margin-left:20px;
+}
+#conteudo ul li {
+  margin-bottom:10px;
+}
+
+#conteudo p.coluna {
+  width:190px;
+  margin:0 20px 10px 0;
+  font-weight:bold; text-align:right;
+  float:left;
+}
+#conteudo p.coluna2 {
+  width:530px;
+  float:left;
+}
+#conteudo br {
+  clear:both;
+}
+
+#conteudo table {
+  font-size:14px;
+}
+#conteudo table th {
+  width:20px;
+  text-align:center;
+  background-color:#AAA;
+}
+#conteudo table th.vazio {
+  background:none;
+}
+#conteudo table th.numero {
+  width:70px;
+}
+#conteudo table th.ano {
+  width:50px;
+}
+#conteudo table th.nome {
+  width:330px;
+}
+#conteudo table th.questionario {
+  width:100px;
+}
+#conteudo table tr.alt {
+  background-color:#FFF;
+}
+#conteudo table td.numero {
+  text-align:center;
+}
+#conteudo table td.ano {
+  text-align:center;
+}
+
+/* FORMULARIOS */
+
+#conteudo form {
+  width:740px;
+  float:left;
+}
+#conteudo form p {
+  margin:0 10px 5px 0;
+  float:left;
+}
+#conteudo form label {
+  display:block;
+  width:140px;
+  margin:0 20px 13px 0;
+  float:left;
+  font-size:14px; text-align:right;
+}
+#conteudo form label.radio {
+  display:block;
+  width:110px;
+  margin:0 15px 7px 15px;
+  text-align:left;
+}
+#conteudo form input {
+  width:400px;
+  float:left;
+  font-size:14px;
+}
+#conteudo form input.curto {
+  width:80px;
+}
+#conteudo form input.radio {
+  width:10px;
+  margin:0;
+}
+#conteudo form input.botao {
+  width:80px;
+  margin-right:10px;
+}
+#conteudo form br {
+  clear:both;
+}
+
+#conteudo form p.erro {
+  margin-bottom:10px;
+  color:#F00;
+  font-weight:bold;
+}
+
+/* --------------------------------------------------------
+   RODAPÉ
+   -------------------------------------------------------- */
+
+#rodape {
+  margin-top:20px;
+  width:780px; height:30px;
+  clear:both; float:left;
+  color:#666; background-color:#FFF;
+}
+#rodape p {
+  width:780px; height:30px;
+  text-align:center; line-height:30px;
+}

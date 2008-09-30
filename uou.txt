@@ -1,0 +1,31 @@
+    $aluno->set('nome', $_SESSION['aluno']['nome'])
+    $aluno->set('sexo', $_SESSION['aluno']['sexo'])
+    $aluno->set('data_nascimento', $_SESSION['aluno']['data'])
+    $aluno->set('cor', $_SESSION['aluno'][''])
+    $aluno->set('etnia', $_SESSION['aluno'][''])
+    $aluno->set('endereco', $_SESSION['aluno'][''])
+    $aluno->set('complemento', $_SESSION['aluno'][''])
+    $aluno->set('bairro', $_SESSION['aluno']['']),
+    $aluno->set('cidade', $_SESSION['aluno'][''])
+    $aluno->set('cep', $_SESSION['aluno'][''])
+    $aluno->set('telefone_residencial', $_SESSION['aluno'][''])
+    $aluno->set('telefone_outro', $_SESSION['aluno']['']),
+    $aluno->set('email', $_SESSION['aluno'][''])
+    $aluno->set('rg', $_SESSION['aluno'][''])
+    $aluno->set('rg_orgao_emissor', $_SESSION['aluno'][''])
+    $aluno->set('cpf', $_SESSION['aluno'][''])
+    $aluno->set('ano_conclusao',0)
+    $aluno->set('nome_mae', $_SESSION['aluno'][''])
+    $aluno->set('nome_pai', $_SESSION['aluno'][''])
+    $aluno->set('observacoes', $_SESSION['aluno'][''])
+    $aluno->set('trabalho', $_SESSION['aluno'][''])
+    $aluno->set('taxa_inscricao', $_SESSION['aluno']['']),
+    $aluno->set('opcao_curso', $_SESSION['aluno'][''])
+    $aluno->set('questionario', $_SESSION['aluno'][''])
+    $aluno->set('prova', $_SESSION['aluno'][''])
+    $aluno->set('foto', $_SESSION['aluno'][''])
+    $aluno->set('matricula', $_SESSION['aluno']['']),
+    $aluno->set('pagamento_matricula', $_SESSION['aluno'][''])
+    $aluno->set('mensalidade',
+    $aluno->set('sala',0)
+    $aluno->set('convocado', $_SESSION['aluno'][''])

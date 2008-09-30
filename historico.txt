@@ -1,0 +1,13 @@
+20:01 23/9/2008
+
+ - Adicionei o campo complemento no cadastro de alunos, pois ele faz parte do endereço.
+
+19:17 23/9/2008
+
+ - Inserido na tabela alunos o campo número, para guardar o número do endereço.
+
+18:14 18/9/2008
+
+ - Inserido no campo convocado da tabela alunos o valor 'i' (indefinido),
+   que todo candidato tem enquanto ainda não sabe se vai ser chamado ou
+   não.

@@ -1,0 +1,2 @@
+? V se tentamos logar com o login e senha em branco, dá um erro
+10:54 18/9/2008 V quando fazemos uma consulta e entramos na tela de cadastro, aparecem mensagens de erro que não deveriam estar lá.
